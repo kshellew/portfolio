@@ -118,8 +118,8 @@ section {
 }
 
 .icon{
-  width: 10%;
-  height: 10%;
+  width: 25%;
+  height: auto;
 }
 
 .screenshot{
@@ -138,16 +138,21 @@ section {
   text-decoration: underline #f6c849;
 }
 
+.contact-container{
+  text-align: center;
+  
+}
 .contact-section{
-    margin: auto;
-    padding: 10px;
+  width:300px; 
+  margin:auto; 
 }
 
 .contact-item{
   display: flex;
   align-items: center;
-  padding-left: 35%;
+  justify-content: flex-start;
 }
+
 
 @media only screen and (max-width: 550px) {
   h1{
@@ -206,6 +211,15 @@ section {
 
   .menu{
     display: contents;
+  }
+
+  .contact-item{
+    display: inline-block;
+  }
+
+  .icon{
+    width: 15%;
+    height: auto;
   }
 }
 
