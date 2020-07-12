@@ -213,8 +213,13 @@ section {
     display: contents;
   }
 
+  .contact-section{
+    width: fit-content;
+  }
+  
   .contact-item{
     display: inline-block;
+    text-align: center;
   }
 
   .icon{
